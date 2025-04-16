@@ -18,3 +18,8 @@ Python toolkit to process, analyze, and visualize 3D medical and scientific imag
   Loads a 3D segmentation NIfTI file and applies connected component labeling using `cc3d`.  
   Visualizes the labeled components as 3D surfaces using VTK’s Discrete Marching Cubes and smoothing filters.  
   Assigns random colors to each component and provides an interactive 3D view with axes and custom camera setup.
+  
+- **`read_meta_czi (1).ipynb`**  
+  Extracts and displays metadata from `.czi` microscopy image files using the Bio-Formats library.  
+  Retrieves channel information such as the number of channels and their names from OME-XML metadata.  
+  Useful for verifying channel structure before image processing or analysis.
