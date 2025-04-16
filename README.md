@@ -9,3 +9,7 @@ Python toolkit to process, analyze, and visualize 3D medical and scientific imag
   Allows users to assign custom colors to each segmented component and switch between multiple 3D views (top, side, front, isometric).  
   Uses VTK for real-time rendering and `cc3d` for connected component labeling.
 
+- **`nii_animate_and_Savevideo.ipynb`**  
+  Loads 3D segmentation masks (NIfTI format), extracts connected components, and renders them in 3D using VTK.  
+  Applies custom spatial positioning and camera rotation to create a composite scene of multiple samples.  
+  Captures the rotating 3D visualization as a video and saves it using OpenCV.
