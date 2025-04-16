@@ -23,3 +23,8 @@ Python toolkit to process, analyze, and visualize 3D medical and scientific imag
   Extracts and displays metadata from `.czi` microscopy image files using the Bio-Formats library.  
   Retrieves channel information such as the number of channels and their names from OME-XML metadata.  
   Useful for verifying channel structure before image processing or analysis.
+
+- **`blob_detection_log.ipynb`**  
+  Detects circular features (cells or blobs) in grayscale images using the Laplacian of Gaussian (LoG) method.  
+  Applies contrast stretching for preprocessing and visualizes detected blobs using `matplotlib`.  
+  Returns the total count and coordinates of all detected blobs, useful for cell quantification tasks.
