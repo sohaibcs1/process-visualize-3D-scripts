@@ -29,7 +29,7 @@ Python toolkit to process, analyze, and visualize 3D medical and scientific imag
   Applies contrast stretching for preprocessing and visualizes detected blobs using `matplotlib`.  
   Returns the total count and coordinates of all detected blobs, useful for cell quantification tasks.
 
-  - **`cellLine_analysis_violin_pca_tsneA.ipynb` and `cellLine_analysis_violin_pca_tsneB.ipynb`**  
+  - **`cellLine_analysis_violin_pca_tsneA.ipynb and cellLine_analysis_violin_pca_tsneB.ipynb`**  
   Performs exploratory analysis on cellular feature data by generating violin plots with statistical significance (Mann-Whitney U test).  
   Extracts cell line and day information for group comparisons and visualizes feature distributions.  
   Applies PCA and t-SNE for dimensionality reduction to visualize clustering patterns across cell lines.
