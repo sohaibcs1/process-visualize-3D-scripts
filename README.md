@@ -13,3 +13,8 @@ Python toolkit to process, analyze, and visualize 3D medical and scientific imag
   Loads 3D segmentation masks (NIfTI format), extracts connected components, and renders them in 3D using VTK.  
   Applies custom spatial positioning and camera rotation to create a composite scene of multiple samples.  
   Captures the rotating 3D visualization as a video and saves it using OpenCV.
+
+- **`nii_applyConnectedComponent_render.ipynb`**  
+  Loads a 3D segmentation NIfTI file and applies connected component labeling using `cc3d`.  
+  Visualizes the labeled components as 3D surfaces using VTK’s Discrete Marching Cubes and smoothing filters.  
+  Assigns random colors to each component and provides an interactive 3D view with axes and custom camera setup.
