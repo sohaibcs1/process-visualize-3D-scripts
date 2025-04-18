@@ -34,4 +34,10 @@ Python toolkit to process, analyze, and visualize 3D medical and scientific imag
   Extracts cell line and day information for group comparisons and visualizes feature distributions.  
   Applies PCA and t-SNE for dimensionality reduction to visualize clustering patterns across cell lines.
 
+- **`czi_to_nii.ipynb`**  
+  Converts `.czi` and other microscopy file formats into `.nii.gz` (NIfTI) using the Bio-Formats library.  
+  Supports multi-channel and volumetric microscopy data with metadata handling.  
+  Ideal for preparing raw experimental files for downstream 3D processing and deep learning pipelines.
+
+
 
